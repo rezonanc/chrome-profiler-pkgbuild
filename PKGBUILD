@@ -1,7 +1,7 @@
 # Maintainer: Edvinas Aleksejonokas <rezonanc@gmail.com>
 
 pkgname=chrome-profiler
-pkgver=0.0.3
+pkgver=0.0.4
 pkgrel=1
 epoch=
 pkgdesc="Chrome profile manager"
@@ -22,7 +22,7 @@ install=
 changelog=
 source=(https://github.com/rezonanc/$pkgname/archive/v$pkgver.tar.gz)
 noextract=()
-md5sums=('5a46ee40ca5b1c28cfdbd497614b08eb')
+md5sums=('b635b26b733578be7cc99c1506745683')
 
 package() {
 	cd "$srcdir/$pkgname-$pkgver"
